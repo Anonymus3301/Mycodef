@@ -99,7 +99,7 @@ function RatingData2() {
           }
         }}
       >
-        Submit
+        SEARCH
       </button>
       <button
         onClick={() => {
@@ -120,7 +120,7 @@ function RatingData2() {
             });
         }}
       >
-        Save
+        SAVE
       </button>
       <div className="Chart">
         <Line height={200} data={data} options={options} />
