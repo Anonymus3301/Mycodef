@@ -6,9 +6,18 @@
 .PAP {
   width: 100%;
   height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width:768px){
+  .Chart{
+    width:100% !important;
+    height:100%;
+  }
 }
 
 .Chart {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
 }

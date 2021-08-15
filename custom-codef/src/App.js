@@ -1,11 +1,10 @@
-import RatingChart from './Components/RatingChart';
-import RatingData from './Components/RatingData'
-import './App.css';
+import RatingData2 from "./Components/RatingData2";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <RatingData/>
+      <RatingData2 />
     </div>
   );
 }
